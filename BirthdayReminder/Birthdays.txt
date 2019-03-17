@@ -1,0 +1,10 @@
+﻿[
+   {
+      "Name":"Rodrigo López",
+      "Birthday":"1991-10-14"
+   },
+   {
+      "Name":"Pepe Gómez",
+      "Birthday":"1990-3-17"
+   }
+]
