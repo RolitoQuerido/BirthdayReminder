@@ -34,7 +34,7 @@ This console app sends a birthday reminder email daily.
 
 ## Authors
 
-* **Rodrigo López** - *Initial work* - [PurpleBooth](https://github.com/rolo1091)
+* **Rodrigo López** - *Initial work* - [rolo1091](https://github.com/rolo1091)
 
 ## License
 
