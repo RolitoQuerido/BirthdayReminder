@@ -17,14 +17,8 @@ This console app sends a birthday reminder email daily.
 2. Enter a json list containing persons' name and birthday like the example:
 ```
 [
-   {
-      "Name":"James Smith",
-      "Birthday":"1981-10-14"
-   },
-   {
-      "Name":"Anthony Brown",
-      "Birthday":"1990-3-17"
-   }
+   { "Birthday" : "1984-10-14", "Name" : "James Smith" },
+   { "Birthday" : "1990-03-19", "Name" : "Anthony Brown" }
 ]
 ```
 
