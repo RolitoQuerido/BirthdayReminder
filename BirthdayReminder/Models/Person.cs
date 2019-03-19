@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BirthdayReminder.Models
 {
-    public class Person
+    public class Person : IPerson
     {
         public string Name { get; set; }
         public DateTime Birthday { get; set; }

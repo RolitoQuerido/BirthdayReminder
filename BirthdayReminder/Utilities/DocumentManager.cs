@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BirthdayReminder.Utilities
 {
-    public class DocumentManager
+    public class DocumentManager : IDocumentManager
     {
         public DocumentManager()
         {

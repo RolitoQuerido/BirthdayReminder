@@ -18,7 +18,6 @@ namespace BirthdayReminder
 
             Console.WriteLine("BirthdayReminder App stoped!");
             Console.WriteLine("Press any key to close...");
-            Console.ReadKey();
         }
 
         private static void Run()
@@ -36,7 +35,10 @@ namespace BirthdayReminder
             {
                 var emailMgr = new EmailManager();
                 var names = string.Join(", ", birthdays.Select(b => b.Name));
-                emailMgr.SendBirthdayEmail(names);
+
+                var body = documentMgr.ReadFile("Templates/Single.html").Replace("{name}", names);
+
+                emailMgr.SendBirthdayEmail(body);
                 Console.WriteLine(DateTime.Today.ToShortDateString() + " - Birthdays: " + names);
             }
             else

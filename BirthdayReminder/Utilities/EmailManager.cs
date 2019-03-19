@@ -7,7 +7,7 @@ using System.Text;
 
 namespace BirthdayReminder.Utilities
 {
-    public class EmailManager
+    public class EmailManager : IEmailManager
     {
         public EmailManager()
         {
@@ -28,6 +28,7 @@ namespace BirthdayReminder.Utilities
             };
 
             var mail = new MailMessage(from, to, subject, body);
+            mail.IsBodyHtml = true;
             client.Send(mail);
         }
     }
