@@ -1,4 +1,5 @@
 ﻿[
-   { "Birthday" : "1984-10-14", "Name" : "James Smith" },
-   { "Birthday" : "1990-03-19", "Name" : "Anthony Brown" }
+   { "Birthday" : "1984-04-20", "FirstWorkDay" : "", "Name" : "James Smith", "SendEmail" : "true" },
+   { "Birthday" : "1990-04-20", "FirstWorkDay" : "2013-12-22", "Name" : "Anthony Brown", "SendEmail" : "true" },
+   { "Birthday" : "1990-04-20", "FirstWorkDay" : "2013-12-22", "Name" : "Anne Yoret", "SendEmail" : "true" }
 ]

@@ -16,5 +16,13 @@ namespace BirthdayReminder.Utilities
         {
             return File.ReadAllText(path);
         }
+
+        public void WriteFile(string path, string text)
+        {
+            using (StreamWriter writer = new StreamWriter(path, true))
+            {
+                writer.WriteLine(text);
+            }
+        }
     }
 }

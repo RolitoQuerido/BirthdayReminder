@@ -27,8 +27,10 @@ namespace BirthdayReminder.Utilities
                 EnableSsl = true
             };
 
-            var mail = new MailMessage(from, to, subject, body);
-            mail.IsBodyHtml = true;
+            var mail = new MailMessage(from, to, subject, body)
+            {
+                IsBodyHtml = true
+            };
             client.Send(mail);
         }
     }
