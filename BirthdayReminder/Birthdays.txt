@@ -1,5 +1,5 @@
 ﻿[
-   { "Birthday" : "1984-04-20", "FirstWorkDay" : "", "Name" : "James Smith", "SendEmail" : "true" },
-   { "Birthday" : "1990-04-20", "FirstWorkDay" : "2013-12-22", "Name" : "Anthony Brown", "SendEmail" : "true" },
-   { "Birthday" : "1990-04-20", "FirstWorkDay" : "2013-12-22", "Name" : "Anne Yoret", "SendEmail" : "true" }
+   { "Birthday" : "1984-04-20", "FirstWorkDay" : "2016-05-02", "Name" : "James Smith", "SendEmail" : "true" },
+   { "Birthday" : "1990-03-02", "FirstWorkDay" : "2013-12-22", "Name" : "Anthony Brown", "SendEmail" : "true" },
+   { "Birthday" : "1957-06-12", "FirstWorkDay" : "2017-12-03", "Name" : "Anne Yoret", "SendEmail" : "false" }
 ]
