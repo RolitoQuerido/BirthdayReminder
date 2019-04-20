@@ -14,13 +14,19 @@ This console app sends a birthday reminder email daily.
 ### Birthday list setup
 
 1. Open Birthdays.txt file
-2. Enter a json list containing persons' name and birthday like the example:
+2. Enter a json list containing persons' name, birthday, first work day and specify if send the email like the example:
 ```
 [
-   { "Birthday" : "1984-10-14", "Name" : "James Smith" },
-   { "Birthday" : "1990-03-19", "Name" : "Anthony Brown" }
+   { "Birthday" : "1984-04-20", "FirstWorkDay" : "2016-05-02", "Name" : "James Smith", "SendEmail" : "true" },
+   { "Birthday" : "1990-03-02", "FirstWorkDay" : "2013-12-22", "Name" : "Anthony Brown", "SendEmail" : "true" },
+   { "Birthday" : "1957-06-12", "FirstWorkDay" : "2017-12-03", "Name" : "Anne Yoret", "SendEmail" : "false" }
 ]
 ```
+
+### Templates setup
+
+1. Place your templates in the Templates folder 
+2. Make sure your html file contains a variable named {name}
 
 ## Built With
 
